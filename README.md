@@ -53,6 +53,8 @@ App crashes
 
 3. I enjoy working with NextJS and Tailwind, it fast and easy to keep consistency between components and code organization.
 
-4. I added a loading state when searching for the weather in a specific city and error handling in case the user search for a city that doesn't have any data or throws an error.
+4. I would personally remove the fetchData from the useEffect. I have been using React Query to make api calls and a nice feature that they have is to make a new call when the user switch tabs (if the user leaves and returns) so that the temperature would update. Also improves efficiency with network calls and cache.
 
-5. This is an area that I need to work on personally, I haven't been writing unit and integration tests lately and am quite rusty. I did write some basic tests for files making sure components were being rendered but felt like they were a bad way to show work and decided to remove them.
+5. I added a loading state when searching for the weather in a specific city and error handling in case the user search for a city that doesn't have any data or throws an error.
+
+6. This is an area that I need to work on personally, I haven't been writing unit and integration tests lately and am quite rusty. I did write some basic tests for files making sure components were being rendered but felt like they were a bad way to show work and decided to remove them.
